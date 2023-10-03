@@ -68,8 +68,3 @@ button {
     transition: transform 0.5s, box-shadow 0.3s, background-color 0.5s;
 }
 
-button:hover {
-    background-color:none;
-    transform: translateY(-3px);
-    box-shadow: 0px 3px 11px rgba(20, 20, 20, 0.3);
-}

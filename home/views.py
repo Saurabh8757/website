@@ -11,6 +11,6 @@ def services(request):
     return render(request,"services.html")
     #return HttpResponse("this is my services")
 def contect(request):
-    return render(request,"contact.html")
+    return render(request,"contect.html")
     #return HttpResponse("this is my contect number")
 
