@@ -7,4 +7,7 @@ urlpatterns = [
     path("about",views.about,name='about'),
     path("services",views.services,name='services'),
     path("contect",views.contect,name='contect'),
+    path("login",views.login1,name='login'),
+    path("signup",views.signup,name='singup'),
+    path("logout",views.logoutpage,name='logout'),
 ]

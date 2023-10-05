@@ -5,7 +5,7 @@
 }
 
 html, body {
-    background-color:rgba(180, 114, 114, 0.897); /* Set the background color for the entire page */
+    background-color:rgba(250, 243, 243, 0.897); /* Set the background color for the entire page */
     
    
 }
@@ -31,7 +31,7 @@ html, body {
     height: 150px;
     cursor: pointer;
     margin-left: -50px;
-    margin-top: -5-px;
+    margin-top: -7-px;
 }
 
 .img {

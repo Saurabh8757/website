@@ -6,6 +6,7 @@
     {% endblock stylesheet %}
 
 {% block body %}
+{{request.user}}
 
 <div class="container my-3">
   <h1 class="my-4 text-center">List of private counselor</H1>
@@ -107,4 +108,5 @@
 
   </div>
 </div>
+<a href="{% url 'logout'%}" CLASS="btn btn-primary">LOGOUT</a>
 {% endblock body %}
