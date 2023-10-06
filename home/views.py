@@ -29,7 +29,7 @@ def signup(request):
          else:
             my_user=User.objects.create_user(uname,email,pass1)
             my_user.save()
-            return redirect('login1')
+            return redirect('login')
        
     return render(request,"signup.html")
     #return HttpResponse("this is my login page") 
